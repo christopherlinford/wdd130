@@ -81,6 +81,18 @@ nav ul li a {
     margin: 1rem;
 }
 
+.employee {
+    padding: 2rem;
+    background-color: white; 
+}
+
+.employee.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+}
+
 .adventure {
     padding: 2rem;
     background-color: #0275d8;
